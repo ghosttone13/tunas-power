@@ -76,7 +76,7 @@ PubSubClient mqtt(wifiClient);
 
 // Firmware OTA diambil dari repository GitHub Public.
 const char *FIRMWARE_URL =
-    "https://raw.githubusercontent.com/ghosttone13/tunas-power/main/firmware/TUNAS-POWER.bin";
+    "https://raw.githubusercontent.com/ghosttone13/tunas-power/main/firmware/firmware.bin";
 
 // Perintah OTA diterima MQTT, tetapi OTA dijalankan dari loop()
 // agar mqttCallback() tidak terblokir oleh proses download.
